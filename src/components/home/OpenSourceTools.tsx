@@ -81,7 +81,7 @@ const OpenSourceTools: React.FC = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 w-full">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
             <div className="flex items-start mb-6">
               <div className="p-3 bg-lime-500/10 rounded-lg mr-4">
@@ -101,7 +101,7 @@ const OpenSourceTools: React.FC = () => {
             </Button>
           </div>
 
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
+          {/* <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-8 border border-gray-700">
             <div className="flex items-start mb-6">
               <div className="p-3 bg-lime-500/10 rounded-lg mr-4">
                 <BookOpen className="h-6 w-6 text-lime-500" />
@@ -117,7 +117,7 @@ const OpenSourceTools: React.FC = () => {
               <ExternalLink size={16} className="mr-2" />
               View Documentation
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
