@@ -8,28 +8,28 @@ const SocialPlatforms: React.FC = () => {
       name: 'Twitter/X',
       icon: Twitter,
       link: 'https://x.com/osint_journo',
-      followers: '50K+',
+      // followers: '50K+',
       description: 'Real-time OSINT updates and community discussions'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
       link: 'https://www.linkedin.com/company/osint-journo',
-      followers: '25K+',
+      // followers: '25K+',
       description: 'Professional networking and industry insights'
     },
     {
       name: 'YouTube',
       icon: Youtube,
       link: 'https://www.youtube.com/@osint_journo',
-      followers: '100K+',
+      // followers: '100K+',
       description: 'Video tutorials and investigation walkthroughs'
     },
     {
       name: 'Reddit',
       icon: MessageSquare,
       link: 'https://reddit.com/r/osint_journo',
-      followers: '45K+',
+      // followers: '45K+',
       description: 'Community discussions and knowledge sharing'
     },
     // {
@@ -79,7 +79,7 @@ const SocialPlatforms: React.FC = () => {
               </div>
               
               <h3 className="text-xl font-semibold text-white mb-2">{platform.name}</h3>
-              <p className="text-lime-500 font-medium mb-4">{platform.followers} Followers</p>
+              {/* <p className="text-lime-500 font-medium mb-4">{platform.followers} Followers</p> */}
               <p className="text-gray-400 mb-6">{platform.description}</p>
               
               <a 
