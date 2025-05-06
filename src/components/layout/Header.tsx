@@ -70,7 +70,7 @@ const Header: React.FC = () => {
               <User size={16} className="mr-2" />
               Sign In
             </Button> */}
-            <Button href="https://reddit.com/r/osin_journo" target="_blank" variant="primary" size="sm">Join Now</Button>
+            <Button href="https://reddit.com/r/osint_journo" target="_blank" variant="primary" size="sm">Join Now</Button>
           </div>
 
           {/* Mobile menu button */}
